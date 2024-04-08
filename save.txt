@@ -1,0 +1,144 @@
+<h4 id="scrollspyHeading1">onclick, onchange, oninput, ondblclick</h4>
+        <p>
+            onclick
+        </p>
+        <pre>
+            <code>
+                &lt;button onclick=&quot;OnClickButton()&quot;&gt;onclick&lt;/button&gt;
+            </code>
+        </pre>
+        <pre>
+            <code>
+                function OnClickButton() {
+                    console.log(&quot;I like cows&quot;)
+                }
+            </code>
+        </pre>
+        <p>
+            onchange
+        </p>
+        <pre>
+            <code>
+                &lt;input type=&quot;range&quot; onchange=&quot;OnChangeInput()&quot; id=&quot;ID&quot;&gt;
+            </code>
+        </pre>
+        <pre>
+            <code>
+                function OnChangeInput() {
+                    console.log(document.getElementById('ID').value)
+                }
+            </code>
+        </pre>
+        <p>
+            oninput
+        </p>
+        <pre>
+            <code>
+                &lt;input type=&quot;range&quot; onchange=&quot;OnInputInput()&quot; id=&quot;ID&quot;&gt;
+            </code>
+        </pre>
+        <pre>
+            <code>
+                function OnInputInput() {
+                    console.log(document.getElementById('ID').value)
+                }
+            </code>
+        </pre>
+        <p>
+            ondblclick
+        </p>
+        <pre>
+            <code>
+                &lt;button ondblclick=&quot;OnDbClickButton()&quot;&gt;onclick&lt;/button&gt;
+            </code>
+        </pre>
+        <pre>
+            <code>
+                function OnDbClickButton() {
+                    console.log(&quot;I like cows&quot;)
+                }
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading2">Second heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading3">Third heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading4">Fourth heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>
+
+        </p>
+        <pre>
+            <code>
+
+            </code>
+        </pre>
+
+      </div>
