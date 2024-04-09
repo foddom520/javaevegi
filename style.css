@@ -6,3 +6,7 @@ pre {
     padding: 10px;
     border-radius: 10px;
 }
+
+code {
+    font-family: verda;
+}
