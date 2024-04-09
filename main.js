@@ -1,12 +1,4 @@
-function OnClickButton() {
-    console.log("I like cows")
-}
-function OnChangeInput() {
-    console.log(document.getElementById('ID').value)
-}
-function OnInputInput() {
-    console.log(document.getElementById('ID').value)
-}
-function OnDbClickButton() {
-    console.log("I like cows")
-}
+var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+        var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+            return new bootstrap.Dropdown(dropdownToggleEl)
+        });

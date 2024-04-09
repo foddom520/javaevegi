@@ -7,5 +7,53 @@ pre, code {
     border-radius: 5px;
     padding: 10px;
     margin: 10px 80;
-    overflow-x: auto;
+}
+
+body,
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin-top: 0 !important;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.navbar {
+    padding: 1rem;
+}
+.nav-link {
+    color: #adb5bd;
+}
+.nav-link.active {
+    color: #fff;
+}
+.nav-item {
+    margin-bottom: 0.5rem;
+}
+.container-fluid {
+    margin-top: 2rem;
+}
+h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+pre {
+    background-color: #f1f3f5;
+    border-radius: 5px;
+    padding: 1rem;
+}
+code {
+    color: #212529;
 }
