@@ -2,13 +2,10 @@ nav {
     nav-right: auto;
 }
 
-pre {
+pre, code {
+    border: 0px solid #ccc;
+    border-radius: 5px;
     padding: 10px;
-    border-radius: 10px;
+    margin: 10px 80;
     overflow-x: auto;
-    left-padding: -30px;
-}
-
-code {
-    font-family: verda;
 }
