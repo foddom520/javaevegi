@@ -21,7 +21,8 @@ body, html {
 }
 
 .container-fluid {
-    margin-top: 0 !important;
+    margin: 0, 0, 0, 0 !important;
+
 }
 
 body {
@@ -56,4 +57,22 @@ pre {
 }
 code {
     color: #212529;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-weight: bold;
+    margin-left: 10px;
+    text-align:start ;
+}
+
+h4 {
+    text-align: center;
+}
+
+button {
+    margin-left: 10px;
 }

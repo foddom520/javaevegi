@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <link rel='stylesheet' href='style.css'>
 </head>
-<body>  
+<body>
+    <button type="button" class="btn btn-light" id="SusieStinky"></button>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="Susie" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            🐰
+        <strong class="me-auto">Easter Egg</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+        Susie is stinky.
+        </div>
+    </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <nav id="navbar-example3" class="navbar navbar-expand-lg navbar-dark bg-dark flex-column align-items-stretch p-3">
+            <div class="col-md-4 col-sm-12 col-lg-3">
+                <nav id="navbar-example3" class="navbar navbar-expand-lg navbar-light bg-light flex-column align-items-stretch p-3">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -20,70 +34,134 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#item-1">onclick, onchange, oninput, ondblclick</a>
-                                <ul class="nav flex-column">
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-1">onclick</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-2">onchange</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-3">oninput</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-4">ondblclick</a></li>
-                                </ul>
+                                <p>
+                                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-1" aria-expanded="false" aria-controls="collapseExample">
+                                        inputok
+                                    </button>
+                                </p>         
+                                <div class="collapse" id="navitem-1">
+                                    <div class="card card-body navbar-dark bg-dark">
+                                        <a class="nav-link active" href="#item-1">inputok</a>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-1">Onclick</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-2">Onchange</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-3">Oninput</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-4">Ondblclick</a></li>
+                                        </ul>
+                                    </div>
+                                  </div>                     
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#item-2">Item 2</a>
-                                <ul class="nav flex-column">
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-1">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-2">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-3">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-4">item</a></li>
-                                </ul>
+                                <p>
+                                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-2" aria-expanded="false" aria-controls="collapseExample">
+                                        Változók
+                                    </button>
+                                </p>         
+                                <div class="collapse" id="navitem-2">
+                                    <div class="card card-body navbar-dark bg-dark">
+                                        <a class="nav-link active" href="#item-2">Változók</a>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-2-1">var</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-2-2">let</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-2-3">const</a></li>
+                                            <button type="button" class="btn btn-dark" id="Joran"></button>
+
+                                            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                                            <div id="JoranIsABaby" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                                <div class="toast-header">
+                                                    🐰
+                                                <strong class="me-auto">Easter Egg</strong>
+                                                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                                </div>
+                                                <div class="toast-body">
+                                                Joran is a bully bc he always bullies me with speedy.
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                  </div>                     
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#item-2">Item 3</a>
-                                <ul class="nav flex-column">
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-1">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-2">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-3">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-4">item</a></li>
-                                </ul>
+                                <p>
+                                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-3" aria-expanded="false" aria-controls="collapseExample">
+                                        feltételek
+                                    </button>
+                                </p>         
+                                <div class="collapse" id="navitem-3">
+                                    <div class="card card-body navbar-dark bg-dark">
+                                        <a class="nav-link active" href="#item-3">feltételek</a>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-3-1">if</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-3-2">else if</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-3-3">else</a></li>
+                                        </ul>
+                                    </div>
+                                  </div>                     
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#item-2">Item 4</a>
-                                <ul class="nav flex-column">
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-1">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-2">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-3">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-4">item</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#item-2">Item 5   </a>
-                                <ul class="nav flex-column">
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-1">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-2">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-3">item</a></li>
-                                    <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-4">item</a></li>
-                                </ul>
+                                <p>
+                                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-4" aria-expanded="false" aria-controls="collapseExample">
+                                        for és while ciklus
+                                    </button>
+                                </p>         
+                                <div class="collapse" id="navitem-4">
+                                    <div class="card card-body navbar-dark bg-dark">
+                                        <a class="nav-link active" href="#item-4"> for és while ciklus</a>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-4-1">for ciklus</a></li>
+                                            <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-4-2">while ciklus</a></li>
+                                        </ul>
+                                    </div>
+                                  </div>                     
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
-            <div class="col-md-8 col-sm-12">
+            <div class="col-md-8 col-sm-12 col-lg-9">
                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" class="scrollspy-example-2" tabindex="0">
-                    <h4 id="item-1">onclick, onchange, oninput, ondblclick</h4>
+                    <h4 id="item-1">inputok</h4>
                     <p>
                         <h5 id="item-1-1">onclick</h5>
                     </p>
                     <p>
-  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-bs-target
-  </button>
-</p>
-<div class="collapse" id="collapseExample1">
-  <div class="card card-body">
-    Az onclick azt csinálja, hogy amit rá nyomunk a gombra le futtatja a function-t.
-  </div>
-</div>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-1" aria-expanded="false" aria-controls="collapseExample">
+                            további információ
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-1">
+                    <div class="card card-body">
+                        Az onclick azt csinálja, hogy amit rá nyomunk a gombra le futtatja a function-t.
+                        <button type="button" class="btn btn-light" id="Sammy"></button>
+
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                          <div id="SammyGay" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                🐰
+                              <strong class="me-auto">Easter Egg</strong>
+                              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                              Sammy Became a Woman bc he hates man.
+                              <button type="button" class="btn btn-light" id="demon"></button>
+                                <div class="toast-container position-fixed bottom-0 start-0 p-3">
+                                <div id="Demonsip" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="toast-header">
+                                        🐰
+                                    <strong class="me-auto">Easter Egg</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                    <div class="toast-body">
+                                    Demon's ip adress is 47.26.148.30.
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
                     <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded">
                         <code>
 &lt;button onclick=&quot;OnClickButton()&quot;&gt;onclick&lt;/button&gt;
@@ -99,11 +177,11 @@ function OnClickButton() {
                     <p>
                         <h5 id="item-1-2">onchange</h5>
                     </p>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                        Button with data-bs-target
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
                       </button>
                     </p>
-                    <div class="collapse" id="collapseExample2">
+                    <div class="collapse" id="collapseExample1-2">
                       <div class="card card-body">
                         Az on change azt csinálja hogy amint a user abba hagyta az adatok változtatását akkor futtatja le a fucntion-t.
                       </div>
@@ -123,11 +201,11 @@ function OnChangeInput() {
                     <p>
                         <h5 id="item-1-3">oninput</h5>
                     </p>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                        Button with data-bs-target
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-3" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
                       </button>
                     </p>
-                    <div class="collapse" id="collapseExample3">
+                    <div class="collapse" id="collapseExample1-3">
                       <div class="card card-body">
                         Az oninput azt csinálja hogy ha van változás az inputtal ez esetben akkor aktiválódik a function.
                       </div>
@@ -147,11 +225,11 @@ function OnInputInput() {
                     <p>
                         <h5 id="item-1-4">ondbclick</h5>
                     </p>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-                        Button with data-bs-target
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-4" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
                       </button>
                     </p>
-                    <div class="collapse" id="collapseExample4">
+                    <div class="collapse" id="collapseExample1-4">
                       <div class="card card-body">
                         Az ondbclick azt csinálja ha duplán kattintunk egy gombra akkor le futtatja valamit.
                       </div>
@@ -168,46 +246,260 @@ function OnDbClickButton() {
 }
                         </code>
                     </pre>
-                    <h4 id="item-2">Item 2</h4>
+                    <h4 id="item-2">Változók</h4>
                     <p>
-
+                        <h5 id="item-2-1">var</h5>
                     </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2-1" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2-1">
+                      <div class="card card-body">
+                        A var az egy változó ami engedi az újrahasználatot.
+                      </div>
+                    </div>
                     <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
                         <code class="overflow-auto">
-
+var valtozo1="a var az egy változó ami engedi az újrahasználatot"
                         </code>
                     </pre>
-                    <h4 id="item-3">Item 3</h4>
-                    <p>
 
+                    <p>
+                        <h5 id="item-2-2">let</h5>
                     </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2-2">
+                      <div class="card card-body">
+                        A let változó nem engedi azt hogy többször legyen használva viszont a value ja át lehet irva.
+                      </div>
+                    </div>
                     <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
                         <code class="overflow-auto">
-
+let valtozo2="A let változó nem engedi azt hogy többször legyen használva viszont a value ja át lehet irva"
                         </code>
                     </pre>
-                    <h4 id="item-4">Item 4</h4>
-                    <p>
+                    <button type="button" class="btn btn-light" id="Time"></button>
 
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                      <div id="TimeIsSus" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            🐰
+                          <strong class="me-auto">Easter Egg</strong>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                          Time is very sus bc he dosent talk much on the server anymore. Maybe he's cheating on the server?
+                          <button type="button" class="btn btn-light" id="Bobby"></button>
+
+                    <div class="toast-container position-fixed bottom-0 start-0 p-3">
+                      <div id="BobbyIsAGhost" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            🐰
+                          <strong class="me-auto">Easter Egg</strong>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Bobby is a ghost and he hides from everyone bc he's too scared to show himself.
+                        </div>
+                      </div>
+                    </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                        <h5 id="item-2-3">const</h5>
                     </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2-3" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                        
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2-3">
+                      <div class="card card-body">
+                        A const azt egy olyan változó aminek egy megadott value ja van és nem lehet változtattni.
+                        <button type="button" class="btn btn-light" id="Anna"></button>
+                        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                        <div id="AnnaIsNice" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                🐰
+                            <strong class="me-auto">Easter Egg</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                            Anna Is always so nice.
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
                     <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
                         <code class="overflow-auto">
-
+const valtozo3="a const azt egy olyan változó aminek egy megadott value ja van és nem lehet változtattni"
                         </code>
                     </pre>
-                    <h4 id="item-5">Item 5</h4>
-                    <p>
 
+                    <h4 id="item-3">feltételek</h4>
+                    <p>
+                        <h5 id="item-3-1">if</h5>
                     </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-1" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-1">
+                      <div class="card card-body">
+                        Az if egy feltétel ami képes el dönteni és külömbséget tenni 2 érték között.
+                      </div>
+                    </div>
                     <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
                         <code class="overflow-auto">
+const num1 = 10
+const num2 = 20
 
+if(num1 &gt; num2) {
+    console.log(&quot;num1 a nagyobb sz&aacute;m&quot;)
+} else if(num1 &lt; num2) {
+    console.log(&quot;num2 a nagyobb sz&aacute;m&quot;)
+} else {
+    console.log(&quot;A k&eacute;t sz&aacute;m eggyenlő&quot;)
+}
                         </code>
                     </pre>
+
+                    <p>
+                        <h5 id="item-3-2">else if</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-2">
+                      <div class="card card-body">
+                        Az else if hasonlóan az if hez képes eldönteni és külömbséget tenni 2 érték között, viszont az else if csak akkor jön szóba ha az elsődleges feltételnek nem felel meg az érték és több mint egy feltételt adunk meg.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+const num1 = 10
+const num2 = 20
+
+if(num1 &gt; num2) {
+    console.log(&quot;num1 a nagyobb sz&aacute;m&quot;)
+} else if(num1 &lt; num2) {
+    console.log(&quot;num2 a nagyobb sz&aacute;m&quot;)
+} else {
+    console.log(&quot;A k&eacute;t sz&aacute;m eggyenlő&quot;)
+}
+                        </code>
+                    </pre>
+
+                    <p>
+                        <h5 id="item-3-3">else</h5>
+                        <button type="button" class="btn btn-light" id="Flower"></button>
+
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                      <div id="FlowerIsFriday13" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            🐰
+                          <strong class="me-auto">Easter Egg</strong>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Flower is very scary she plays too much horror games and probably dosen't even gets scared.
+                        </div>
+                      </div>
+                    </div>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-3" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-3">
+                      <div class="card card-body">
+                        Az else egy olyan feltétel ami akkor lép értékbe ha semelyik feltételnek nem felel meg az érték.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+const num1 = 10
+const num2 = 20
+
+if(num1 &gt; num2) {
+    console.log(&quot;num1 a nagyobb sz&aacute;m&quot;)
+} else if(num1 &lt; num2) {
+    console.log(&quot;num2 a nagyobb sz&aacute;m&quot;)
+} else {
+    console.log(&quot;A k&eacute;t sz&aacute;m eggyenlő&quot;)
+}
+                        </code>
+                    </pre>
+
+
+                    <h4 id="item-4">for és while ciklus</h4>
+                    <p>
+                        <h5 id="item-4-1">for ciklus</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-1" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-1">
+                        <div class="card card-body">
+                            A for ciklus egy olyan ciklus amihez kell meg adni inicializálást, feltételt és növekedést vagy csökkenést állapotjelzőt(i++ vagy i--).
+                        </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+for (let i = 1; i &lt;= 5; i++) {
+    console.log(i);
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-4-2">while ciklus</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                    </button>
+                    </p>
+                    <div class="collapse" id="collapseExample4-2">
+                        <div class="card card-body">
+                            A while ciklusnak a mükködéséhez csak egy feltételt kell meg adni.
+                        </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+let i = 1;
+while (i &lt;= 5) {
+    console.log(i);
+    i++;
+}
+                        </code>
+                    </pre>
+
                 </div>
             </div>
         </div>
     </div>
+
+    <button type="button" class="btn btn-light" id="liveToastBtn"></button>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        🐰
+      <strong class="me-auto">Easter Egg</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Speedy helped with this project. 😂
+    </div>
+  </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
@@ -222,5 +514,6 @@ function OnDbClickButton() {
         })
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="buttonJS.js"></script>
 </body>
 </html>
