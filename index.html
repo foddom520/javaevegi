@@ -139,9 +139,19 @@
             </div>
         </div>
     </div>
+
+
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+z5G7bY/8Q5Lr+5G5F5hsw1z1TKs6T5lFgFgJjB" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-    <script src='main.js'></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script>
+        var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+        var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+            return new bootstrap.Dropdown(dropdownToggleEl)
+        })
+    </script>
 </body>
 </html>
