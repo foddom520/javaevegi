@@ -78,3 +78,7 @@ h4 {
 button {
     margin-left: 10px;
 }
+
+.navbar {
+    color: #fff !important;
+}
