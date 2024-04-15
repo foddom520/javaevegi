@@ -26,7 +26,7 @@
     <div class="container-fluid">
         <div class="row">
             <div>
-                <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                <nav class="navbar bg-light border-bottom border-body" data-bs-theme="light">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">Navbar</a>
                       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +35,19 @@
                       <div class="navbar-collapse collapse" id="navbarNav">
                         <ul class="navbar-nav flex-column">
                           <li class="nav-item">
+                            <p>
+                                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-0" aria-expanded="false" aria-controls="collapseExample">
+                                    A javascript története
+                                </button>
+                            </p>         
+                            <div class="collapse" id="navitem-0">
+                                <div class="card card-body navbar-dark bg-dark">
+                                    <a class="nav-link active" href="#item-0">A javascript története</a>
+                                </div>
+                                <br>
+                              </div>                     
+                        </li>
+                          <li class="nav-item">
                               <p>
                                   <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-1" aria-expanded="false" aria-controls="collapseExample">
                                       inputok
@@ -42,6 +55,7 @@
                               </p>         
                               <div class="collapse" id="navitem-1">
                                   <div class="card card-body navbar-dark bg-dark">
+                                      <a class="nav-link active" href="#item-1">A javascript története</a>
                                       <a class="nav-link active" href="#item-1">inputok</a>
                                       <ul class="nav flex-column">
                                           <li class="nav-item"><a class="nav-link ms-3 my-1" href="#item-1-1">Onclick</a></li>
@@ -127,6 +141,15 @@
             </div>
             <div>
                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" class="scrollspy-example-2" tabindex="0">
+                  <p>
+                    <h5 id="item-0">A javascript története</h5>
+                </p>
+                
+                <div id="collapseExample1-2">
+                  <div class="card card-body">
+                    
+                  </div>
+                </div>
                     <h4 id="item-1">inputok</h4>
                     <p>
                         <h5 id="item-1-1">onclick</h5>
