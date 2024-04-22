@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div>
+                <nav class="navbar bg-light border-bottom border-body" data-bs-theme="light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="navbar-collapse collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                          <li class="nav-item">
+                            <p>
+                                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-0" aria-expanded="false" aria-controls="collapseExample">
+                                    A javascript története
+                                </button>
+                            </p>         
+                            <div class="collapse" id="navitem-0">
+                                <div class="card card-body navbar-dark bg-dark">
+                                    <a class="nav-link active" href="javascript_history.html">A javascript története</a>
+                                </div>
+                                <br>
+                              </div>                     
+                        </li>
+                        <li class="nav-item">
+                          <p>
+                              <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-1" aria-expanded="false" aria-controls="collapseExample">
+                                  Változó tipusok
+                              </button>
+                          </p>         
+                          <div class="collapse" id="navitem-1">
+                              <div class="card card-body navbar-dark bg-dark">
+                                  <a class="nav-link active" href="variable_types.html">Változók tipusai</a>
+                              </div>
+                              <br>
+                            </div>                     
+                      </li>
+                          <li class="nav-item">
+                              <p>
+                                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-11" aria-expanded="false" aria-controls="collapseExample">
+                                      inputok
+                                  </button>
+                              </p>         
+                              <div class="collapse" id="navitem-11">
+                                  <div class="card card-body navbar-dark bg-dark">
+                                      <a class="nav-link active" href="#">inputok</a>
+                                  </div>
+                                  <br>
+                                </div>                     
+                          </li>
+                          <li class="nav-item">
+                              <p>
+                                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-2" aria-expanded="false" aria-controls="collapseExample">
+                                      Változók
+                                  </button>
+                              </p>         
+                              <div class="collapse" id="navitem-2">
+                                  <div class="card card-body navbar-dark bg-dark">
+                                      <a class="nav-link active" href="variables.html">Változók</a>
+                                  </div>
+                                  <br>
+                                </div>                     
+                          </li>
+                          <li class="nav-item">
+                              <p>
+                                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-3" aria-expanded="false" aria-controls="collapseExample">
+                                      feltételek
+                                  </button>
+                              </p>         
+                              <div class="collapse" id="navitem-3">
+                                  <div class="card card-body navbar-dark bg-dark">
+                                      <a class="nav-link active" href="conditions.html">feltételek</a>
+                                  </div>
+                                  <br>
+                                </div>                     
+                          </li>
+                          <li class="nav-item">
+                              <p>
+                                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navitem-4" aria-expanded="false" aria-controls="collapseExample">
+                                      for és while ciklus
+                                  </button>
+                              </p>         
+                              <div class="collapse" id="navitem-4">
+                                  <div class="card card-body navbar-dark bg-dark">
+                                      <a class="nav-link active" href="loops.html">for és while ciklus</a>
+                                  </div>
+                                  <br>
+                                </div>                     
+                          </li>
+                      </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script>
+        var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+        var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+            return new bootstrap.Dropdown(dropdownToggleEl)
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="buttonJS.js"></script>
+</body>
+</html>

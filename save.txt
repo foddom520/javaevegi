@@ -1,0 +1,115 @@
+<button type="button" class="btn btn-light" id="SusieStinky"></button>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="Susie" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            🐰
+        <strong class="me-auto">Easter Egg</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+        Susie is nice and cute and scary.
+        </div>
+
+<button type="button" class="btn btn-dark" id="Joran"></button>
+              
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="JoranIsABaby" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            🐰
+        <strong class="me-auto">Easter Egg</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+        Joran is a bully bc he always bullies me with speedy.
+        </div>  
+<button type="button" class="btn btn-light" id="Sammy"></button>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="SammyGay" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            🐰
+          <strong class="me-auto">Easter Egg</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Sammy Became a Woman bc he hates man.
+          <button type="button" class="btn btn-light" id="demon"></button>
+            <div class="toast-container position-fixed bottom-0 start-0 p-3">
+            <div id="Demonsip" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    🐰
+                <strong class="me-auto">Easter Egg</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                Demon's ip adress is 47.26.148.30.
+                </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+<button type="button" class="btn btn-light" id="Time"></button> 
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="TimeIsSus" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            🐰
+          <strong class="me-auto">Easter Egg</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Time is very sus bc he dosent talk much on the server anymore. Maybe he's cheating on the server?
+          <button type="button" class="btn btn-light" id="Bobby"></button>  
+    <div class="toast-container position-fixed bottom-0 start-0 p-3">
+      <div id="BobbyIsAGhost" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            🐰
+          <strong class="me-auto">Easter Egg</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+
+<button type="button" class="btn btn-light" id="Anna"></button>
+                        
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="AnnaIsNice" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            🐰
+        <strong class="me-auto">Easter Egg</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+        Anna Is always so nice.
+        </div>
+    </div>
+
+    button type="button" class="btn btn-light" id="liveToastBtn"></button>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        🐰
+      <strong class="me-auto">Easter Egg</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Speedy helped with this project. 😂
+    </div>
+  </div>
+</div>
+
+                        <button type="button" class="btn btn-light" id="Flower"></button>
+
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                      <div id="FlowerIsFriday13" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            🐰
+                          <strong class="me-auto">Easter Egg</strong>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Flower is very scary she plays too much horror games and probably dosen't even gets scared.
+                        </div>
+                      </div>
+                    </div>

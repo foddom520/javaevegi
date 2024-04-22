@@ -1,0 +1,320 @@
+<div>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" class="scrollspy-example-2" tabindex="0">
+                  <p>
+                    <h5 id="item-0">A javascript története</h5>
+                  </p>
+                
+                <div>
+                  <div class="card card-body col-sm-12 col-md-6">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam voluptas expedita ab quas quod sequi, quisquam reprehenderit asperiores vel laudantium pariatur inventore optio voluptate odit eum, voluptatem sed, adipisci esse?
+                    Perferendis possimus minus tenetur cupiditate, eius labore et voluptatum dolores voluptatibus, quia doloribus est optio cumque natus provident, placeat quaerat? Aliquam rem dolor molestiae expedita dolores nesciunt, at iure facilis?
+                    Pariatur atque odit necessitatibus. Nisi eos quasi est dicta quidem nostrum impedit, tempore molestiae natus ea iusto accusantium, eum blanditiis repellendus atque explicabo repellat itaque? Veniam culpa voluptatibus velit ullam?
+                    Blanditiis quod, odio voluptas nulla quasi eveniet exercitationem voluptatibus odit nostrum voluptate non vel reiciendis explicabo sunt incidunt. Esse veniam reprehenderit temporibus quod, nihil corrupti eum ut alias sequi autem?
+                    Saepe nihil alias praesentium a dolorem numquam nesciunt mollitia nam! Iusto nam aspernatur mollitia iste omnis, consequatur velit officia quis. Ad, soluta culpa. Provident, dicta. At non molestias laborum sit.
+                  </div>
+                </div>
+                <p>
+                  <h5 id="item-0">A Változók tipusai</h5>
+                </p>
+              
+              <div>
+                <div class="card card-body col-sm-12 col-md-6">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam eaque soluta in ratione voluptatibus quia amet, fugit eius repellendus architecto et nobis minima iure perferendis error reprehenderit vitae. Quia.
+                  Dolore ratione, velit quam, aspernatur minus quasi magnam reiciendis doloremque nobis natus officiis facilis error rem itaque nisi quis provident fugiat qui voluptatibus consectetur. Libero tempora quisquam impedit dolor labore.
+                  Quis, dolorum harum eligendi cupiditate ratione rem magnam atque aut facilis debitis quo nulla nobis corrupti. Nulla dignissimos quod consequatur optio, accusamus culpa alias, possimus laborum pariatur commodi nesciunt a.
+                  Fugiat maiores veritatis eaque placeat, dolore recusandae suscipit dolor beatae blanditiis incidunt minima a deleniti nostrum, tempora magnam. Corporis debitis sapiente esse repudiandae provident deserunt obcaecati perspiciatis laboriosam blanditiis saepe!
+                  Atque fugit eum odit quam corporis. Deleniti ipsum excepturi totam quis consequuntur. Amet similique veniam eveniet quos asperiores. Obcaecati explicabo ipsam quibusdam soluta et accusamus harum repellat quasi fugiat perspiciatis?
+                </div>
+              </div>
+                    <h4 id="item-11">inputok</h4>
+                    <p>
+                        <h5 id="item-11-1">onclick</h5>
+                    </p>
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-1" aria-expanded="false" aria-controls="collapseExample">
+                            további információ
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-1">
+                    <div class="card card-body">
+                        Az onclick azt csinálja, hogy amit rá nyomunk a gombra le futtatja a function-t.
+                        
+                    </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded">
+                        <code>
+&lt;button onclick=&quot;OnClickButton()&quot;&gt;onclick&lt;/button&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code>
+function OnClickButton() {
+    console.log(&quot;I like cows&quot;)
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-11-2">onchange</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-2">
+                      <div class="card card-body">
+                        Az on change azt csinálja hogy amint a user abba hagyta az adatok változtatását akkor futtatja le a fucntion-t.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+&lt;input type=&quot;range&quot; onchange=&quot;OnChangeInput()&quot; id=&quot;ID&quot;&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+function OnChangeInput() {
+    console.log(document.getElementById('ID').value)
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-11-3">oninput</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-3" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-3">
+                      <div class="card card-body">
+                        Az oninput azt csinálja hogy ha van változás az inputtal ez esetben akkor aktiválódik a function.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded">
+                        <code class="overflow-auto">
+&lt;input type=&quot;range&quot; onchange=&quot;OnInputInput()&quot; id=&quot;ID&quot;&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+function OnInputInput() {
+    console.log(document.getElementById('ID').value)
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-11-4">ondbclick</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-4" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-4">
+                      <div class="card card-body">
+                        Az ondbclick azt csinálja ha duplán kattintunk egy gombra akkor le futtatja valamit.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+&lt;button ondblclick=&quot;OnDbClickButton()&quot;&gt;onclick&lt;/button&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+function OnDbClickButton() {
+    console.log(&quot;I like cows&quot;)
+}
+                        </code>
+                    </pre>
+                    <h4 id="item-2">Változók</h4>
+                    <p>
+                        <h5 id="item-2-1">var</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2-1" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2-1">
+                      <div class="card card-body">
+                        A var az egy változó ami engedi az újrahasználatot.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+var valtozo1="a var az egy változó ami engedi az újrahasználatot"
+                        </code>
+                    </pre>
+
+                    <p>
+                        <h5 id="item-2-2">let</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2-2">
+                      <div class="card card-body">
+                        A let változó nem engedi azt hogy többször legyen használva viszont a value ja át lehet irva.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+let valtozo2="A let változó nem engedi azt hogy többször legyen használva viszont a value ja át lehet irva"
+                        </code>
+                    </pre>
+                        <div class="toast-body">
+                            Bobby is a ghost and he hides from everyone bc he's too scared to show himself.
+                        </div>
+                      </div>
+                    </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                        <h5 id="item-2-3">const</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2-3" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                        
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2-3">
+                      <div class="card card-body">
+                        A const azt egy olyan változó aminek egy megadott value ja van és nem lehet változtattni.
+                        </div>
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+const valtozo3="a const azt egy olyan változó aminek egy megadott value ja van és nem lehet változtattni"
+                        </code>
+                    </pre>
+
+                    <h4 id="item-3">feltételek</h4>
+                    <p>
+                        <h5 id="item-3-1">if</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-1" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-1">
+                      <div class="card card-body">
+                        Az if egy feltétel ami képes el dönteni és külömbséget tenni 2 érték között.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+const num1 = 10
+const num2 = 20
+
+if(num1 &gt; num2) {
+    console.log(&quot;num1 a nagyobb sz&aacute;m&quot;)
+} else if(num1 &lt; num2) {
+    console.log(&quot;num2 a nagyobb sz&aacute;m&quot;)
+} else {
+    console.log(&quot;A k&eacute;t sz&aacute;m eggyenlő&quot;)
+}
+                        </code>
+                    </pre>
+
+                    <p>
+                        <h5 id="item-3-2">else if</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-2">
+                      <div class="card card-body">
+                        Az else if hasonlóan az if hez képes eldönteni és külömbséget tenni 2 érték között, viszont az else if csak akkor jön szóba ha az elsődleges feltételnek nem felel meg az érték és több mint egy feltételt adunk meg.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+const num1 = 10
+const num2 = 20
+
+if(num1 &gt; num2) {
+    console.log(&quot;num1 a nagyobb sz&aacute;m&quot;)
+} else if(num1 &lt; num2) {
+    console.log(&quot;num2 a nagyobb sz&aacute;m&quot;)
+} else {
+    console.log(&quot;A k&eacute;t sz&aacute;m eggyenlő&quot;)
+}
+                        </code>
+                    </pre>
+
+                    <p>
+                        <h5 id="item-3-3">else</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-3" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-3">
+                      <div class="card card-body">
+                        Az else egy olyan feltétel ami akkor lép értékbe ha semelyik feltételnek nem felel meg az érték.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+const num1 = 10
+const num2 = 20
+
+if(num1 &gt; num2) {
+    console.log(&quot;num1 a nagyobb sz&aacute;m&quot;)
+} else if(num1 &lt; num2) {
+    console.log(&quot;num2 a nagyobb sz&aacute;m&quot;)
+} else {
+    console.log(&quot;A k&eacute;t sz&aacute;m eggyenlő&quot;)
+}
+                        </code>
+                    </pre>
+
+
+                    <h4 id="item-4">for és while ciklus</h4>
+                    <p>
+                        <h5 id="item-4-1">for ciklus</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3-1" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3-1">
+                        <div class="card card-body">
+                            A for ciklus egy olyan ciklus amihez kell meg adni inicializálást, feltételt és növekedést vagy csökkenést állapotjelzőt(i++ vagy i--).
+                        </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+for (let i = 1; i &lt;= 5; i++) {
+    console.log(i);
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-4-2">while ciklus</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                    </button>
+                    </p>
+                    <div class="collapse" id="collapseExample4-2">
+                        <div class="card card-body">
+                            A while ciklusnak a mükködéséhez csak egy feltételt kell meg adni.
+                        </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+let i = 1;
+while (i &lt;= 5) {
+    console.log(i);
+    i++;
+}
+                        </code>
+                    </pre>
+
+                </div>
+            </div>
+        </div>
+    </div>
