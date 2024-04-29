@@ -61,6 +61,7 @@
         </div>
         <div class="toast-body">
           Time is very sus bc he dosent talk much on the server anymore. Maybe he's cheating on the server?
+          
           <button type="button" class="btn btn-light" id="Bobby"></button>  
     <div class="toast-container position-fixed bottom-0 start-0 p-3">
       <div id="BobbyIsAGhost" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -68,6 +69,9 @@
             🐰
           <strong class="me-auto">Easter Egg</strong>
           <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          Bobby is a ghost and he hides from everyone bc he's too scared to show himself.
         </div>
 
 <button type="button" class="btn btn-light" id="Anna"></button>

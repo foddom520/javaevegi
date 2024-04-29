@@ -103,7 +103,109 @@
                     </div>
                   </nav>
             </div>
-
+            <div>
+                <h4>inputok</h4>
+                <div class="col-12" style="margin-left: 400px;">
+                    <p>
+                        <h5 id="item-11-1">onclick</h5>
+                    </p>
+                    <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-1" aria-expanded="false" aria-controls="collapseExample">
+                            további információ
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-1">
+                    <div class="card card-body col-6">
+                        Az onclick azt csinálja, hogy amit rá nyomunk a gombra le futtatja a function-t.
+                        
+                    </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded">
+                        <code>
+&lt;button onclick=&quot;OnClickButton()&quot;&gt;onclick&lt;/button&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code>
+function OnClickButton() {
+    console.log(&quot;I like cows&quot;)
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-11-2">onchange</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-2" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-2">
+                      <div class="card card-body col-6">
+                        Az on change azt csinálja hogy amint a user abba hagyta az adatok változtatását akkor futtatja le a fucntion-t.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+&lt;input type=&quot;range&quot; onchange=&quot;OnChangeInput()&quot; id=&quot;ID&quot;&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+function OnChangeInput() {
+    console.log(document.getElementById('ID').value)
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-11-3">oninput</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-3" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-3">
+                      <div class="card card-body col-6">
+                        Az oninput azt csinálja hogy ha van változás az inputtal ez esetben akkor aktiválódik a function.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded">
+                        <code class="overflow-auto">
+&lt;input type=&quot;range&quot; onchange=&quot;OnInputInput()&quot; id=&quot;ID&quot;&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+function OnInputInput() {
+    console.log(document.getElementById('ID').value)
+}
+                        </code>
+                    </pre>
+                    <p>
+                        <h5 id="item-11-4">ondbclick</h5>
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1-4" aria-expanded="false" aria-controls="collapseExample">
+                        további információ
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1-4">
+                      <div class="card card-body col-6">
+                        Az ondbclick azt csinálja ha duplán kattintunk egy gombra akkor le futtatja valamit.
+                      </div>
+                    </div>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+&lt;button ondblclick=&quot;OnDbClickButton()&quot;&gt;onclick&lt;/button&gt;
+                        </code>
+                    </pre>
+                    <pre class="col-md-6 col-sm-12 shadow p-3 mb-5 bg-body rounded overflow-auto">
+                        <code class="overflow-auto">
+function OnDbClickButton() {
+    console.log(&quot;I like cows&quot;)
+}
+                        </code>
+                    </pre>
+                </div>
+            </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
